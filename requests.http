@@ -1,28 +1,13 @@
-### Post "Hello!"
-POST http://localhost:8080/message
+
+POST http://localhost:8080/api/v1/tickets/create
 Content-Type: application/json
 
 {
-  "text": "Hello!"
-}
-
-### Post "Bonjour!"
-
-POST http://localhost:8080/message
-Content-Type: application/json
-
-{
-  "text": "Bonjour!"
-}
-
-### Post "Privet!"
-
-POST http://localhost:8080/message
-Content-Type: application/json
-
-{
-  "text": "Privet!"
+  "title": "Ticket issue #2",
+  "description": "I need support for thr app",
+  "status": "OPEN",
+  "priority": "MEDIUM"
 }
 
 ### Get all the messages
-GET http://localhost:8080/message
+GET http://localhost:8080/api/v1/tickets/all
