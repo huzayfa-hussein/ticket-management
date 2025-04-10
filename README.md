@@ -54,3 +54,8 @@ src/ ├── controller/ │ └── TicketController.kt ├── dto/ │ 
 ./gradlew bootRun
 
 or run directly from the IDE.
+```
+
+## 📌 Tags
+
+#kotlin #springboot #restapi #backend #ticketing-system #springboot-kotlin-demo
