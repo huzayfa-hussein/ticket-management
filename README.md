@@ -59,3 +59,11 @@ or run directly from the IDE.
 ## 📌 Tags
 
 #kotlin #springboot #restapi #backend #ticketing-system #springboot-kotlin-demo
+
+## 🧪 Test the Endpoints
+You can use Postman or Swagger if integrated, or simply test using curl:
+
+```bash
+curl http://localhost:8080/api/v1/tickets/all
+```
+
